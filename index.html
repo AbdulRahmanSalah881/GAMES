@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+  
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+
+    <head>
+        <header class=" header"> </header>
+        <div class=" navparrsecond position-sticky pb-5 ">
+            <nav
+                class="navbar navbar-expand-lg  rounded-5  position-absolute top-0 start-50 translate-middle col-md-6 col-lg-9  ">
+                <div class="container navcolor  rounded-5 shadow ">
+                    <a class="navbar-brand" href="#"> <img width="25%" src="./image/logo-sm.png" alt=""> Game
+                        Reviews</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse ms-auto me-5 menu " id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-5 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active text-uppercase  " data-category="mmorpg" aria-current="page"
+                                    href="#">mmorpg</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-uppercase" data-category="shooter" href="#">shooter</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-uppercase" data-category="sailing" href="#">sailing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-uppercase" data-category="permadeath" href="#">permadeath</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-uppercase" data-category="superhero" href="#">superhero</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-uppercase" data-category="pixel" href="#">pixel</a>
+                            </li>
+
+
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+        <main class="container pt-5 games ">
+            <section>
+                <div class="  row justify-content-center align-items-center g-4" id="dataofcard">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card " id="card">
+                            <div class="container box pt-2">
+                                <img src="https://www.freetogame.com/g/582/thumbnail.jpg" class="card-img-top"
+                                    alt="...">
+
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <h5 class="card-title text-white">Card title</h5>
+                                        </div>
+                                        <div><button class="btn  btn-primary">Free</button></div>
+
+                                    </div>
+                                    <p class=" pt-2 card-text text-center text-secondary ">Some quick example text to
+                                        build on the card title and
+                                        make up the
+                                        bulk of the card's content.</p>
+
+                                </div>
+                                <div class="card-footer d-flex justify-content-between">
+                                    <div class="text-white back d-flex justify-content-center align-items-center ">
+                                        <p>mmotf</p>
+                                    </div>
+                                    <div class="text-white back d-flex justify-content-center align-items-center">
+                                        <p>pc (window)</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </section>
+        </main>
+
+        <div class="Spinner d-flex justify-content-center align-items-center z-3 d-none">
+            <div class="text-center ">
+                <div class="spinner-border" style="width: 3rem; height: 3rem;" role="status">
+                    <div class="spinner-grow text-warning" style="width: 1.5rem;  height: 1.5rem;" role="status">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="Daitels pt-5 d-none">
+            <div class="container position-relative">
+                <div id="btnClose" class="position-absolute top-0 end-0 fs-4"><i class="fa-solid fa-xmark"></i></div>
+                <div class="row " id="Daitels">
+                    <!-- <div class="col-4 ">
+                        <h2>Details Game</h2>
+                        <div class="w-100"><img src="https://www.freetogame.com/g/582/thumbnail.jpg" alt=""></div>
+                    </div>
+                    <div class="col-8 pt-5">
+                        <h2 class="d-flex">
+                            <p>Title:</p>
+                            <p class="ps-2">Genshin Impact</p>
+                        </h2>
+                        <div class="d-flex">
+                            <p class="pe-2">Category:</p>
+                            <p class="rounded-5 bg-primary ps-2 pe-2"> Action RPG</p>
+                        </div>
+                        <div class="d-flex">
+                            <p class="pe-2">Platform:</p>
+                            <p class=" rounded-5 bg-primary ps-2 pe-2"> Action RPG</p>
+                        </div>
+                        <div class="d-flex">
+                            <p class="pe-2">Status:</p>
+                            <p class="rounded-5 bg-primary ps-2 pe-2"> Action RPG</p>
+                        </div>
+                        <div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quae et modi nobis
+                                impedit eveniet sequi similique sit aliquid ipsam tempore, necessitatibus adipisci ad
+                                mollitia autem voluptatum voluptate corporis provident beatae? Earum impedit neque
+                                tempora voluptatem totam adipisci enim facilis, quod debitis nihil ratione minima dolor
+                                labore, natus dolorum nam libero officiis tenetur nostrum blanditiis amet incidunt et
+                                pariatur? Ullam temporibus, magnam impedit nulla qui, voluptate explicabo tenetur
+                                voluptas dignissimos alias rem beatae itaque obcaecati nisi fugit veritatis quis. Ad,
+                                odio blanditiis! Velit nisi labore libero possimus eligendi magnam in cum? Amet dicta
+                                inventore distinctio minus vero natus sint deleniti obcaecati deserunt numquam harum
+                                omnis alias, culpa perspiciatis. Dignissimos veniam modi quibusdam rerum obcaecati
+                                labore, itaque sequi facilis debitis reiciendis ab animi in ad unde, rem maxime ipsa
+                                similique assumenda corrupti delectus? Eius, officiis. Consequuntur totam non, nihil
+                                perspiciatis unde accusamus illo consectetur, facilis asperiores, error eius debitis
+                                provident iste.</p>
+                        </div>
+                        <div>
+                            <a href="">
+                                <div class="d-grid gap-2 col-6 mx-auto">
+                                    <button class="btn btn_datiels" type="button">Show Game</button>
+                                </div>
+                            </a>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </head>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="./js/index.js"></script>
+    <!-- <script src="./js/games.module.js"></script> -->
+</body>
+
+</html>
